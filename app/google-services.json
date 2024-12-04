@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "660293582159",
+    "project_id": "examen-pde",
+    "storage_bucket": "examen-pde.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660293582159:android:40fbcae5e6d7f35d83193a",
+        "android_client_info": {
+          "package_name": "com.example.examen2_pde"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrjnAilMC1p7cvNjhVrq7MPSRI3liKWuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

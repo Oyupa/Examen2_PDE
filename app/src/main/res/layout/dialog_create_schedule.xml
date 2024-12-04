@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la asignatura" />
+
+    <TextView
+        android:id="@+id/text_selected_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Fecha no seleccionada" />
+
+    <Button
+        android:id="@+id/button_select_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Fecha" />
+
+    <Spinner
+        android:id="@+id/spinner_hour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/hours_array" />
+
+    <Spinner
+        android:id="@+id/spinner_minute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/minutes_array" />
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Examen2_PDE"
+        tools:targetApi="31">
+
+        <!-- MainActivity: pantalla principal -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Examen2_PDE">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- HorarioActivity: gestión del horario -->
+        <activity
+            android:name=".horario.HorarioActivity"
+            android:exported="true"
+            android:label="Horario"
+            android:theme="@style/Theme.Examen2_PDE" />
+
+        <!-- DailyScheduleActivity: consulta del horario diario -->
+        <activity
+            android:name=".horario.DailyScheduleActivity"
+            android:exported="true"
+            android:label="Horario Diario"
+            android:theme="@style/Theme.Examen2_PDE" />
+
+        <activity android:name=".eventos.EventosActivity"
+            android:exported="true"
+            android:label="Eventos"
+            android:theme="@style/Theme.Examen2_PDE" />
+
+        <activity android:name=".farmacias.FarmaciasActivity"
+            android:exported="true"
+            android:label="Farmacias"
+            android:theme="@style/Theme.Examen2_PDE" />
+
+        <activity android:name=".farmacias.FarmaciaDetalleActivity"
+            android:exported="true"
+            android:label="Detalle de Farmacia"
+            android:theme="@style/Theme.Examen2_PDE" />
+
+    </application>
+</manifest>
