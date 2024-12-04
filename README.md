@@ -1,6 +1,6 @@
-Link al repositorio: https://github.com/Oyupa/Examen2_PDE.git
-Trabajo realizado por Adrián Puyo Olías
-Link al video: https://youtu.be/1mUVSoXq23w
+- Link al repositorio: https://github.com/Oyupa/Examen2_PDE.git
+- Trabajo realizado por Adrián Puyo Olías
+- Link al video: https://youtu.be/1mUVSoXq23w
 
 # Examen 2 - Programación Dirigida por Eventos
 ## Tarea 1 - Horarios
